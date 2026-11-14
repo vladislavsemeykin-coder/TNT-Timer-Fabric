@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "tnttimer",
+  "version": "${version}",
+  "name": "TNT Timer",
+  "description": "Displays countdowns for primed TNT entities within 100 blocks.",
+  "authors": ["TNT Timer Project"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.tnttimer.TntTimerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
